@@ -25,7 +25,7 @@ const persons = [
   {
     name: 'Sumit Prajapat',
     role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/60533560?v=4',
+    avatar: 'https://avatars.githubusercontent.com/u/60530010?v=4',
     github: 'https://github.com/',
     linkedin: 'https://www.linkedin.com/in/',
   },
