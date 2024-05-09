@@ -35,11 +35,7 @@ const HomeLayout = () => {
             </Link>
           </NavBarActions>
           <NavBarActions>
-            {/* <Link href="#contribute" passHref={true}>
-              <StyledButton variant="text" className="max-md:hidden">
-                Contribute
-              </StyledButton>
-            </Link> */}
+          
             <Link href="#about-us" passHref={true}>
               <StyledButton variant="text">About us</StyledButton>
             </Link>
