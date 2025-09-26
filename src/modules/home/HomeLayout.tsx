@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 import FeatureSection from './components/Feature';
 import Image from 'next/image';
 import Link from 'next/link';
-import Person from './components/Person';
+// import Person from './components/Person';
 
 const HomeLayout = () => {
   const controls = useAnimation();
@@ -34,7 +34,7 @@ const HomeLayout = () => {
               <StyledButton variant="text">Editor</StyledButton>
             </Link>
           </NavBarActions>
-          <NavBarActions>
+          {/* <NavBarActions>
           
             <Link href="#about-us" passHref={true}>
               <StyledButton variant="text">About us</StyledButton>
@@ -46,7 +46,7 @@ const HomeLayout = () => {
             >
               <BsGithub className="h-6 w-6" fill="white" />
             </a>
-          </NavBarActions>
+          </NavBarActions> */}
         </div>
       </nav>
       <div
