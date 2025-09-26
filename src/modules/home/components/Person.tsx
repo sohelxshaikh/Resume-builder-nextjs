@@ -2,33 +2,20 @@ import Image from 'next/image';
 
 const persons = [
   {
-    name: 'Sohel Shaikh',
-    role: 'MERN Stack Developer',
-    avatar: 'https://avatars.githubusercontent.com/u/84074486?v=4',
-    github: 'https://github.com/sohelxshaikh',
-    linkedin: 'https://www.linkedin.com/in/sohelxshaikh/',
-  },
-  {
-    name: 'Vivek Yadav',
-    role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/169388702?v=4',
-    github: 'https://github.com/vivyadav',
+    name: 'Rohaan Shaikh',
+   
+    avatar: 'https://avatars.githubusercontent.com/u/8v=4',
+    github: 'https://github.com/s',
     linkedin: 'https://www.linkedin.com/in/',
   },
   {
-    name: 'Vivek Saxena',
-    role: 'Product designer, half developer',
-    avatar: 'https://avatars.githubusercontent.com/u/107567647?v=4',
-    github: 'https://github.com/viveksaxena1',
-    linkedin: 'https://www.linkedin.com/in/',
-  },
-  {
-    name: 'Sumit Prajapat',
-    role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/60530010?v=4',
+    name: 'Rohit Mobar',
+   
+    avatar: 'https://avatars.githubusercontent.com/u/?v=4',
     github: 'https://github.com/',
     linkedin: 'https://www.linkedin.com/in/',
   },
+
 ];
 
 const PersonCard = ({ children }: { children: React.ReactNode }) => (
