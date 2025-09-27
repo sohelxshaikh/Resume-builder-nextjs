@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
 function FeatureSection() {
   return (
     <>
@@ -30,7 +29,6 @@ function FeatureSection() {
           No <strong>sign up </strong>needed — go straight to building!
         </p>
       </FeatureCard>
-
       <FeatureCard>
         <CardPinnnedIcon>
           <Image src="/icons/lock.svg" alt="lock" height="56" width="56" />
@@ -42,7 +40,6 @@ function FeatureSection() {
     </>
   );
 }
-
 const FeatureCard = ({ children }: { children: React.ReactNode }) => {
   return (
       <div
@@ -55,7 +52,6 @@ const FeatureCard = ({ children }: { children: React.ReactNode }) => {
       </div>
   );
 };
-
 const CardPinnnedIcon = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="backdrop-blur-2xl bg-resume-100 rounded-full p-2 shadow-level-hard absolute right-0 top-0 -mt-4 -mr-1">
