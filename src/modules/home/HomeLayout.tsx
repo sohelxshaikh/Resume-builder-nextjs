@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 import FeatureSection from './components/Feature';
 import Image from 'next/image';
 import Link from 'next/link';
-// import Person from './components/Person';
+import Person from './components/Person';
 
 const HomeLayout = () => {
   const controls = useAnimation();
@@ -116,8 +116,8 @@ const HomeLayout = () => {
           <FeatureSection />
         </div>
       </motion.div>
-
-      {/* <div className="bg-resume-50 my-32">
+{/* 
+      { <div className="bg-resume-50 my-32">
         <div
           id="contribute"
           className="mx-6 md:mx-40 xl:mx-60 py-12"
@@ -160,7 +160,7 @@ const HomeLayout = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div> } */}
 
       <div
         id="about-us"
