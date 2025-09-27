@@ -1,6 +1,4 @@
 import Image from 'next/image';
-
-
 const persons = [
   {
     name: 'Rohaan Shaikh',
