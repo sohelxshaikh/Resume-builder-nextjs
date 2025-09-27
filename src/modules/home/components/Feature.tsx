@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+
 function FeatureSection() {
   return (
     <>
@@ -29,6 +30,7 @@ function FeatureSection() {
           No <strong>sign up </strong>needed — go straight to building!
         </p>
       </FeatureCard>
+
       <FeatureCard>
         <CardPinnnedIcon>
           <Image src="/icons/lock.svg" alt="lock" height="56" width="56" />
@@ -42,14 +44,13 @@ function FeatureSection() {
 }
 const FeatureCard = ({ children }: { children: React.ReactNode }) => {
   return (
-      <div
-        className={`transition ease-in-out delay-100 duration-300 bg-resume-100 hover:bg-resume-500 text-resume-800
-      hover:text-resume-50 fill-resume-800 px-6 py-10 lg:p-12 flex shadow-md cursor-pointer relative rounded-xl h-full`}
-      >
-        <Link href="/builder" passHref={true}>
+    <div
+      className={`transition ease-in-out delay-100 duration-300 bg-resume-100 hover:bg-resume-500 text-resume-800 hover:text-resume-50 fill-resume-800 px-6 py-10 lg:p-12 flex shadow-md cursor-pointer relative rounded-xl h-full`}
+    >
+      <Link href="/builder" passHref={true}>
         {children}
-        </Link>
-      </div>
+      </Link>
+    </div>
   );
 };
 const CardPinnnedIcon = ({ children }: { children: React.ReactNode }) => {
@@ -59,5 +60,4 @@ const CardPinnnedIcon = ({ children }: { children: React.ReactNode }) => {
     </div>
   );
 };
-
 export default FeatureSection;
